@@ -4,21 +4,28 @@
  * Created Date: 20/12/2017
  */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
-body{
+body {
 	padding: 0;
 	margin: 0;
-	background:#f1efef;
+	background: #f1efef;
 }
-html,h1,h2,h3,h4,h5,h6,a{
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
 	font-family: "Raleway";
 }
 
 /************************* Image Grow Styling *************************/
 
 .grow {
-	transition: all .2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 .grow:hover {
 	transform: scale(1.1);
@@ -30,72 +37,73 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin: 0 auto;
 }
 
-.nav-link , .navbar-brand {
- cursor: pointer;
+.nav-link,
+.navbar-brand {
+	cursor: pointer;
 }
 .nav-link {
- margin-right: 1em !important;
+	margin-right: 1em !important;
 }
 
 .nav-link:hover {
- color: #f97300 !important;
+	color: #f97300 !important;
 }
 
 .navbar-collapse {
- justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 /************************* Header Styling *************************/
-.header{
- background-image: url('../img/background/background-img.jpeg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
+.header {
+	background-image: url("../img/background/background-img.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 /************************* Header Overlay Styling *************************/
 
-.overlay{
- position: relative;
- min-height: 100%;
- min-width: 100%;
- left: 0;
- top: 0;
- background: rgba(255, 255, 255, 0.89);
+.overlay {
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.89);
 }
 
 /************************* Header Description Styling *************************/
 
 .description {
-    position: absolute;
+	position: absolute;
 	top: 30%;
 	left: 10%;
-    margin: auto;
-    padding: 2em;
+	margin: auto;
+	padding: 2em;
 }
 
 .description h1 {
- color:#F97300 ;
+	color: #f97300;
 }
 
 .description p {
- color:#666;
- font-size: 20px;
- width: 70%;
- line-height: 1.5;
+	color: #666;
+	font-size: 20px;
+	width: 70%;
+	line-height: 1.5;
 }
 
 /************************* About Section Styling *************************/
 
 .about {
- margin: 4em 0;
- padding: 1em;
- position: relative;
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
 }
 
 .about h1 {
- color:#F97300;
- margin: 2em;
+	color: #f97300;
+	margin: 2em;
 }
 
 .about img {
@@ -106,71 +114,71 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .about span {
- display: block;
- color: #888;
- position: relative;
- padding: 1em;
+	display: block;
+	color: #888;
+	position: relative;
+	padding: 1em;
 }
 
 .about .desc {
- padding: 0 0 0 2em;
- border-left:4px solid #10828C;
+	padding: 0 0 0 2em;
+	border-left: 4px solid #10828c;
 }
 
 .about .desc h3 {
- color: #10828C;
+	color: #10828c;
 }
 
 .about .desc p {
- line-height: 2;
- color:#888;
+	line-height: 2;
+	color: #888;
 }
 
 /************************* Portfolio Section Styling *************************/
 
 .portfolio {
- 	margin: 0 auto;
+	margin: 0 auto;
 	position: relative;
 }
 
 .portfolio h1 {
- color:#F97300;
- margin: 2em;
+	color: #f97300;
+	margin: 2em;
 }
 
 .portfolio img {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 }
 
 /************************* Blog Section Styling *************************/
 
 .blog {
- margin: 4em 0;
- position: relative;
+	margin: 4em 0;
+	position: relative;
 }
 
 .blog h1 {
- color:#F97300;
- margin: 2em;
+	color: #f97300;
+	margin: 2em;
 }
 
 .blog .card {
- box-shadow: 0 0 20px #ccc;
+	box-shadow: 0 0 20px #ccc;
 }
 
 .blog .card img {
- width: 100%;
- height: 12em;
+	width: 100%;
+	height: 12em;
 }
 
 .blog .card-title {
- color:#F97300;
+	color: #f97300;
 }
 
 .blog .card-body {
- padding: 1em;
+	padding: 1em;
 }
 
 /************************* Cards Styling *************************/
@@ -204,68 +212,68 @@ html,h1,h2,h3,h4,h5,h6,a{
 .fa-envelope-o {
 	background: #293d68;
 	color: white;
-  }
+}
 
-  .fa-github-alt {
+.fa-github-alt {
 	background: #000000;
 	color: white;
-  }
+}
 
-  .fa-linkedin-square {
+.fa-linkedin-square {
 	background: #3f8fbd;
 	color: white;
-  }
+}
 
 .fa-facebook {
-	background: #3B5998;
+	background: #3b5998;
 	color: white;
-  }
+}
 
-  .fa-twitter {
-	background: #55ACEE;
+.fa-twitter {
+	background: #55acee;
 	color: white;
-  }
+}
 
-  .fa-google {
+.fa-google {
 	background: #dd4b39;
 	color: white;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
 	background: #007bb5;
 	color: white;
-  }
+}
 
-  .fa-youtube {
+.fa-youtube {
 	background: #bb0000;
 	color: white;
-  }
+}
 
-  .fa-instagram {
+.fa-instagram {
 	background: #125688;
 	color: white;
-  }
+}
 
-  .fa-snapchat-ghost {
+.fa-snapchat-ghost {
 	background: #fffc00;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
+}
 
-  .fa-skype {
+.fa-skype {
 	background: #00aff0;
 	color: white;
-  }
+}
 
-  .fa-rss {
+.fa-rss {
 	background: #ff6600;
 	color: white;
-  }
+}
 
-  .social-icons {
-	  margin: 0.2em;
-	  text-align: center;
-  }
+.social-icons {
+	margin: 0.2em;
+	text-align: center;
+}
 
 /************************* Sticky footer styles *************************/
 .footer {
@@ -283,6 +291,21 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	.description {
+		position: absolute;
+		top: 15%;
+		left: 5%;
+		margin: auto;
+		padding: 1em;
+	}
+
+	.description p {
+		color: #666;
+		font-size: 16px;
+		width: 50%;
+		line-height: 1.2;
+	}
+
 	.footer {
 		font-size: 0.75em;
 	}
@@ -290,6 +313,22 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+	.description {
+		position: absolute;
+		top: 20%;
+		left: 8%;
+		margin: auto;
+		padding: 1.5em;
+	}
+
+	.description p {
+		color: #666;
+		font-size: 18px;
+		width: 60%;
+		line-height: 1.4;
+	}
+
 	.footer {
 		font-size: 1em;
 	}
@@ -297,15 +336,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	
 }
