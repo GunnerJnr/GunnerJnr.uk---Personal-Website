@@ -60,7 +60,7 @@
 	<!-- Header Section Begin -->
 	<header class="header">
 		<div class="overlay"></div>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="description ">
 				<h1>
 					Welcome, and thank you
@@ -74,7 +74,7 @@
 
 	<!-- About Section Begin -->
 	<div class="about" id="about">
-		<div class="container">
+		<div class="container-fluid">
 			<!-- Container Heading Begin -->
 			<h1 class="text-center">About Me</h1>
 			<!-- Container Heading End -->
@@ -83,11 +83,11 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12">
 					<img class="img-fluid" src="img/profile/david-gunner.jpg" alt="David Gunner (Jnr)">
-					<h5><span class="text-center">Full Stack Software Developer</span></h5>
+					<span class="text-center">Full Stack Software Developer</span>
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 desc">
 					<h3>David Gunner (Jnr)</h3>
-					<p>
+					<p class="text-justify">
 						 Hello everybody! My name is David Gunner. Most people call me 'Gunner', mainly because it is my surname and we have too
 						many Dave's in the family! So feel free. I am a qualified Full Stack Web Developer and gained my Diploma in 'Full Stack Web
 						Development' with Code Institute. I am skilled in HTML/CSS, JS, JQuery, AngularJS, MongoDB, Flask, Heroku, MySQL, Python,
@@ -105,19 +105,21 @@
 	<!-- Portfolio Section Begin -->
 	<div class="portfolio" id="portfolio">
 		<h1 class="text-center">Portfolio</h1>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<!-- Portfolio Project #1 Begin -->
-				<div class="col-lg-4 col-md-12 col-sm-12">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Full Stack Diploma Certificate</h6>
+						<div class="card-img">
+							<img src="img/diploma-certificate/diploma-preview.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/diploma-certificate/diploma-preview.png" alt="Stream One Final Project">
+						<div class="card-body text-center">
+							<h4 class="card-title">Diploma Certificate</h4>
+							<p class="card-text">
+								Certificate of Diploma in Full Stack Software Development.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
+						<div class="card-footer text-center">
 							<a href="https://gunnerjnr.uk/full-stack-diploma.pdf" target="_blank " class="btn btn-info fa fa-certificate"> View Diploma</a>
 						</div>
 					</div>
@@ -125,16 +127,18 @@
 				<!-- Portfolio Project #1 End -->
 
 				<!-- Portfolio Project #2 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Band Site</h6>
+						<div class="card-img">
+							<img src="img/projects/band-site-preview.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/band-site-preview.png" alt="Stream One Final Project">
+						<div class="card-body text-center">
+							<h4 class="card-title">Band Site</h4>
+							<p class="card-text">
+								 A demonstration of the front end technologies learned displaying a band website.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
+						<div class="card-footer text-center">
 							<a href="http://band-site.gunnerjnr.uk/home" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
 							<a href="https://github.com/GunnerJnr/stream-one-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
 								Github</a>
@@ -144,16 +148,18 @@
 				<!-- Portfolio Project #2 End -->
 
 				<!-- Portfolio Project #3 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Data Dashboard</h6>
+						<div class="card-img">
+							<img src="img/projects/avengers-data-dashboard-preview.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/avengers-data-dashboard-preview.png" alt="Stream Two Final Project">
+						<div class="card-body text-center">
+							<h4 class="card-title">Data Dashboard</h4>
+							<p class="card-text">
+								 A demonstration of the back end technologies learned displaying csv data into a dashboard.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A demonstration of the back end technologies learned displaying csv data into a dashboard.</p>
+						<div class="card-footer text-center">
 							<a href="https://boiling-everglades-31193.herokuapp.com/" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
 							<a href="https://github.com/GunnerJnr/stream-two-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
 								Github</a>
@@ -163,16 +169,18 @@
 				<!-- Portfolio Project #3 End -->
 
 				<!-- Portfolio Project #4 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Gamers Hub Site</h6>
+						<div class="card-img">
+							<img src="img/projects/gamershub-preview.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/gamershub-preview.png" alt="Stream Three Final Project">
+						<div class="card-body text-center">
+							<h4 class="card-title">Gamers Hub Site</h4>
+							<p class="card-text">
+								 A demonstration of the full stack technologies learned in a community site called gamershub.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A demonstration of the full stack technologies learned in a community site called gamershub.</p>
+						<div class="card-footer text-center">
 							<a href="https://gamershub.herokuapp.com" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
 							<a href="https://github.com/GunnerJnr/stream-three-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
 								Github</a>
@@ -181,21 +189,21 @@
 				</div>
 				<!-- Portfolio Project #4 End -->
 
-				<hr>
-
 				<!-- Other Project #1 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Bop The Bad Elf</h6>
+						<div class="card-img">
+							<img src="img/projects/bop-the-elf-preview.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/bop-the-elf-preview.png" alt="Bop The Bad Elf - Google Play">
+						<div class="card-body text-center">
+							<h4 class="card-title">Bop The Bad Elf</h4>
+							<p class="card-text">
+								 A whack a mole style inspired christmas game that I made for Android.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A whack a mole style inspired christmas game that I made for Android.</p>
+						<div class="card-footer text-center">
 							<a href="https://play.google.com/store/apps/details?id=com.GUNNERStudios.BopTheBadElf&hl=en_GB" target="_blank" class="btn btn-success fa fa-gamepad">
-								Get on Google Play</a>
+								Google Play</a>
 							<a href="https://gunnerjnr.uk/Bop-The-Bad-Elf/HTML5-Build/Bop-The-Bad-Elf.html" target="_blank" class="btn btn-danger fa fa-gamepad">
 								Play Game</a>
 						</div>
@@ -204,16 +212,18 @@
 				<!-- Other Project #1 End -->
 
 				<!-- Other Project #2 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Game Jam - Trapped</h6>
+						<div class="card-img">
+							<img src="img/projects/trapped-in-game.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/trapped-in-game.png" alt="Trapped - Game Jam Entry">
+						<div class="card-body text-center">
+							<h4 class="card-title">Game Jam - Trapped</h4>
+							<p class="card-text">
+								 The Train2Game, Luton Game Jam - Our Game Entry was the game Trapped.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">The Train2Game, Luton Game Jam - Our Game Entry was the game Trapped.</p>
+						<div class="card-footer text-center">
 							<a href="http://gunnerjnr.uk/WebGL/Trapped/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
 						</div>
 					</div>
@@ -221,16 +231,18 @@
 				<!-- Other Project #2 End -->
 
 				<!-- Other Project #3 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Invasion</h6>
+						<div class="card-img">
+							<img src="img/projects/invasion-in-game.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/invasion-in-game.png" alt="Invasion - Space Invaders Clone">
+						<div class="card-body text-center">
+							<h4 class="card-title">Invasion</h4>
+							<p class="card-text">
+								 Invasion - A clone of the original 'Space Invaders' a retro 8 bit classic.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">Invasion - A clone of the original 'Space Invaders' a retro 8 bit classic.</p>
+						<div class="card-footer text-center">
 							<a href="http://gunnerjnr.uk/Invasion/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
 						</div>
 					</div>
@@ -238,16 +250,18 @@
 				<!-- Other Project #3 End -->
 
 				<!-- Other Project #4 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">FizzBuzz Challenge</h6>
+						<div class="card-img">
+							<img src="img/projects/fizzbuzz.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/fizzbuzz.png" alt="FizzBuzz Challenge">
+						<div class="card-body text-center">
+							<h4 class="card-title">FizzBuzz Challenge</h4>
+							<p class="card-text">
+								 A simple Javascript program displaying the FizzBuzz Solution.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A simple Javascript program displaying the FizzBuzz Solution.</p>
+						<div class="card-footer text-center">
 							<a href="https://github.com/GunnerJnr/FizzBuzz" target="_blank" class="btn btn-warning fa fa-github-alt">
 								Github</a>
 						</div>
@@ -256,16 +270,18 @@
 				<!-- Other Project #4 End -->
 
 				<!-- Other Project #5 Begin -->
-				<div class="col-sm-12 col-md-12 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-12">
 					<div class="card">
-						<div class="card-header">
-							<h6 class="card-title">Doomsday Counter - JS</h6>
+						<div class="card-img">
+							<img src="img/projects/judgementday.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
-							<img id="img-previews" class="card-img-bottom grow" src="img/projects/judgementday.png" alt="Doomsday Counter">
+						<div class="card-body text-center">
+							<h4 class="card-title">Doomsday Counter</h4>
+							<p class="card-text">
+								A simple doomsday counter built in Javascript using flipclock.js.
+							</p>
 						</div>
-						<div class="card-footer">
-							<p class="card-text">A simple doomsday counter built in Javascript using flipclock.js.</p>
+						<div class="card-footer text-center">
 							<a href="https://gunnerjnr.uk/doomsday" target="_blank" class="btn btn-info fa fa-desktop"> Visit Counter</a>
 							<a href="https://github.com/GunnerJnr/doomsday-counter" target="_blank" class="btn btn-warning fa fa-github-alt">
 								Github</a>
@@ -280,9 +296,9 @@
 	</div>
 	<!-- Portfolio Section End -->
 
-	<!-- Posts Section Begin -->
+	<!-- Blog Posts Section Begin -->
 	<div class="blog" id="blog">
-		<div class="container">
+		<div class="container-fluid">
 			<h1 class="text-center">Blog Posts</h1>
 			<div class="row">
 
@@ -291,13 +307,13 @@
 						<div class="card-img">
 							<img src="img/projects/judgementday.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
+						<div class="card-body text-center">
 							<h4 class="card-title">Coming Soon</h4>
 							<p class="card-text">
 								This post is currently being created, check back soon for updates! Thanks for your patience.
 							</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer text-center">
 							<a href="#blog" class="card-link">Read more</a>
 						</div>
 					</div>
@@ -308,13 +324,13 @@
 						<div class="card-img">
 							<img src="img/projects/judgementday.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
+						<div class="card-body text-center">
 							<h4 class="card-title">Coming Soon</h4>
 							<p class="card-text">
 								This post is currently being created, check back soon for updates! Thanks for your patience.
 							</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer text-center">
 							<a href="#blog" class="card-link">Read more</a>
 						</div>
 					</div>
@@ -325,13 +341,13 @@
 						<div class="card-img">
 							<img src="img/projects/judgementday.png" class="img-fluid grow">
 						</div>
-						<div class="card-body">
+						<div class="card-body text-center">
 							<h4 class="card-title">Coming Soon</h4>
 							<p class="card-text">
 								This post is currently being created, check back soon for updates! Thanks for your patience.
 							</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer text-center">
 							<a href="#blog" class="card-link">Read more</a>
 						</div>
 					</div>
@@ -344,7 +360,7 @@
 	<!-- Contact Form Begin -->
 	<div class="contact-form" id="contact">
 		<!-- Container Begin -->
-		<div class="container">
+		<div class="container-fluid">
 
 			<h1 class="text-center">Get In touch</h1>
 

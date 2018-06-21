@@ -9,7 +9,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background:#f4f4f4;
+	background:#f1efef;
 }
 html,h1,h2,h3,h4,h5,h6,a{
 	font-family: "Raleway";
@@ -20,7 +20,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 .grow {
 	transition: all .2s ease-in-out;
 }
-
 .grow:hover {
 	transform: scale(1.1);
 }
@@ -47,7 +46,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 /************************* Header Styling *************************/
-.header {
+.header{
  background-image: url('../img/background/background-img.jpeg');
  background-attachment: fixed;
  background-size: cover;
@@ -62,15 +61,14 @@ html,h1,h2,h3,h4,h5,h6,a{
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(255, 255, 255, 0.76);
+ background: rgba(255, 255, 255, 0.89);
 }
 
 /************************* Header Description Styling *************************/
 
 .description {
     position: absolute;
-	top: 30%;
-	left: 35%;
+    top: 30%;
     margin: auto;
     padding: 2em;
 }
@@ -109,18 +107,18 @@ html,h1,h2,h3,h4,h5,h6,a{
 	width: auto;
 	height: auto;
 	border-radius: 50%;
-	margin: 0.5em;
+	padding: 0 1em;
 }
 
 .about span {
  display: block;
  color: #888;
  position: relative;
- margin: 2px;
+ padding: 1em;
 }
 
 .about .desc {
- padding: 2em;
+ padding: 0 0 0 2em;
  border-left:4px solid #10828C;
 }
 
@@ -129,7 +127,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .about .desc p {
- line-height:2;
+ line-height: 2;
  color:#888;
 }
 
@@ -183,15 +181,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 /************************* Cards Styling *************************/
 
 .card {
-	margin: 0.2em 0.1em;
-}
-
-.card-header, .card-footer {
-	text-align: center;
+	margin: 1em 0;
+	background-color: rgba(236, 200, 170, 0.671);
 }
 
 .card-text {
-	height: 125px;
+	font-size: 0.8em;
+	min-height: 100%;
 }
 
 /************************* Social Icons Styling *************************/
