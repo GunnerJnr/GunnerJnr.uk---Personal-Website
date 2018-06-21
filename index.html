@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -21,290 +16,350 @@
 </head>
 
 <body>
-	<!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+	<!-- Sticky Navbar Begin -->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+		<!-- Brand Begin -->
+		<a class="navbar-brand" data-value="home" href="#">
+			<img src="img/logo/logo-head.png">
+		</a>
 
-	<!-- Container Begin -->
-	<div id="home" class="container-fluid">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Toggler/collapsibe Button End -->
 
-		<!-- Sticky Navbar Begin -->
-		<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
-			<!-- Brand Begin -->
-			<a class="navbar-brand" href="#home">
-				<img src="img/logo/logo-head.png">
-			</a>
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav mr-4">
 
-			<!-- Toggler/collapsibe Button Begin -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<!-- Toggler/collapsibe Button End -->
+				<li class="nav-item">
+					<a class="nav-link" data-value="home" href="#" >Home</a>
+				</li>
 
-			<!-- Navbar links -->
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">ABOUT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">PORTFOLIO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">CONTACT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://gunnerjnr.uk/curriculumvitae.pdf" target="_blank">CURRICULUM VITAE</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<!-- Sticky Navbar End -->
+				<li class="nav-item">
+					<a class="nav-link" data-value="about" href="#about">About</a>
+				</li>
 
-		<!-- Row Container Begin -->
-		<div class="row">
-			<!-- Header Img Begin -->
-			<img class="col-md-12" src="img/background/background-img.jpeg">
-			<!-- Header Img End -->
+				<li class="nav-item">
+					<a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" data-value="blog" href="#blog">Blog</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" data-value="contact" href="#contact">Contact</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="https://gunnerjnr.uk/curriculumvitae.pdf" target="_blank">Curriculum Vitae</a>
+				</li>
+			</ul>
 		</div>
-		<!-- Row Container End -->
+	</nav>
+	<!-- Sticky Navbar End -->
 
-		<!-- Row Container Begin -->
-		<div class="row">
-			<!-- About Container Begin -->
-			<div id="about" class="col-md-12">
-				<hr>
-				<!-- Row Container Heading Begin -->
-				<h1>ABOUT ME</h1>
-				<!-- Row Container Heading End -->
-				<hr>
-
-				<!-- Profile Img Container Begin -->
-				<div id="profile-img-container">
-					<img id="profile-img" class="grow" src="img/profile/david-gunner.jpg" alt="David Gunner (Jnr)">
-				</div>
-				<!-- Profile Img Container End -->
-
-				<!-- About Me Heading Begin -->
-				<h4>David Gunner (Jnr)</h4>
-				<!-- About Me Heading End -->
-
-				<!-- About Me Content Begin -->
-				<p>
-					Hello everybody! My name is David Gunner. Most people call me 'Gunner', mainly because it is my surname and we have too many
-					Dave's in the family! So feel free. I am a qualified Full Stack Web Developer and gained my
-					<a href="https://gunnerjnr.uk/full-stack-diploma.pdf" target="_blank">Diploma</a> in
-					<a href="https://www.codeinstitute.net/mentored-online/" target="_blank">'Full Stack Web Development'</a> with
-					<a href="https://www.codeinstitute.net/" target="_blank">Code Institute</a>. I am skilled in HTML/CSS, JS, JQuery, AngularJS, MongoDB, Flask, Heroku, MySQL, Python, Django and
-					more.. If you are interested in finding out more then please see the
-					<a href="#portfolio">Portolio</a> section below, it contains my final projects that have been submitted for marking, for my stream one, two
-					and three projects set by the
-					<a href="https://www.codeinstitute.net/" target="_blank">Code Institute</a> brief. Also contained will be a link to the code on Github for each portfolio project. Also if you
-					would like to get in touch with me then please feel free to do so with one of the social links below. Thanks.
-				</p>
-				<!-- About Me Content Begin -->
+	<!-- Header Section Begin -->
+	<header class="header">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="description ">
+				<h1>
+					Welcome, and thank you
+					<p>
+						for visiting my personal website. Here you can find out about me and what it is that I do, as well as browse my projects and view their source code on github, as well as preview the live versions. If you would like to get in touch with me, then please feel free to do so via one of the contact methods below.</p>
+					<button class="btn btn-outline-secondary btn-lg" type="button" onclick="location.href='#about'">Enter Site</button>
+				</h1>
 			</div>
-			<!-- About Container End -->
 		</div>
-		<!-- Row Container End -->
+	</header>
+	<!-- Header Section End -->
 
-		<!-- Row Container Begin -->
-		<div class="row">
-			<!-- Portflio Container Begin -->
-			<div id="portfolio" class="col-md-12">
-				<hr>
-				<!-- Row Container Heading Begin -->
-				<h1>PORTFOLIO</h1>
-				<!-- Row Container Heading End -->
-				<hr>
-			</div>
-			<!-- Portflio Container End -->
+	<!-- About Section Begin -->
+	<div class="about" id="about">
+		<div class="container">
+			<!-- Container Heading Begin -->
+			<h1 class="text-center">About Me</h1>
+			<!-- Container Heading End -->
 
-			<!-- Portfolio Project #1 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Full Stack Diploma Certificate</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/diploma-certificate/diploma-preview.png" alt="Stream One Final Project">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
-						<a href="https://gunnerjnr.uk/full-stack-diploma.pdf" target="_blank " class="btn btn-info fa fa-certificate"> View Diploma</a>
-					</div>
+			<!-- About Me Begin -->
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img class="img-fluid" src="img/profile/david-gunner.jpg" alt="David Gunner (Jnr)">
+					<h5><span class="text-center">Full Stack Software Developer</span></h5>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 desc">
+					<h3>David Gunner (Jnr)</h3>
+					<p>
+						 Hello everybody! My name is David Gunner. Most people call me 'Gunner', mainly because it is my surname and we have too
+						many Dave's in the family! So feel free. I am a qualified Full Stack Web Developer and gained my Diploma in 'Full Stack Web
+						Development' with Code Institute. I am skilled in HTML/CSS, JS, JQuery, AngularJS, MongoDB, Flask, Heroku, MySQL, Python,
+						Django and more.. If you are interested in finding out more then please see the Portolio section below, it contains my final
+						projects that have been submitted for marking, for my stream one, two and three projects set by the Code Institute brief.
+						Also contained will be a link to the code on Github for each portfolio project. Also if you would like to get in touch with
+						me then please feel free to do so with one of the social links below. Thanks.
+					</p>
 				</div>
 			</div>
-			<!-- Portfolio Project #1 End -->
-
-			<!-- Portfolio Project #2 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Band Site</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/band-site-preview.png" alt="Stream One Final Project">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
-						<a href="http://band-site.gunnerjnr.uk/home" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
-						<a href="https://github.com/GunnerJnr/stream-one-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
-							Github</a>
-					</div>
-				</div>
-			</div>
-			<!-- Portfolio Project #2 End -->
-
-			<!-- Portfolio Project #3 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Data Dashboard</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/avengers-data-dashboard-preview.png" alt="Stream Two Final Project">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A demonstration of the back end technologies learned displaying csv data into a dashboard.</p>
-						<a href="https://boiling-everglades-31193.herokuapp.com/" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
-						<a href="https://github.com/GunnerJnr/stream-two-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
-							Github</a>
-					</div>
-				</div>
-			</div>
-			<!-- Portfolio Project #3 End -->
-
-			<!-- Portfolio Project #4 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Gamers Hub Site</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/gamershub-preview.png" alt="Stream Three Final Project">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A demonstration of the full stack technologies learned in a community site called gamershub.</p>
-						<a href="https://gamershub.herokuapp.com" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
-						<a href="https://github.com/GunnerJnr/stream-three-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
-							Github</a>
-					</div>
-				</div>
-			</div>
-			<!-- Portfolio Project #4 End -->
-
-			<hr>
-
-			<!-- Other Project #1 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Bop The Bad Elf</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/bop-the-elf-preview.png" alt="Bop The Bad Elf - Google Play">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A whack a mole style inspired christmas game that I made for Android.</p>
-						<a href="https://play.google.com/store/apps/details?id=com.GUNNERStudios.BopTheBadElf&hl=en_GB" target="_blank" class="btn btn-success fa fa-gamepad">
-							Get on Google Play</a>
-						<a href="https://gunnerjnr.uk/Bop-The-Bad-Elf/HTML5-Build/Bop-The-Bad-Elf.html" target="_blank" class="btn btn-danger fa fa-gamepad">
-							Play Game</a>
-					</div>
-				</div>
-			</div>
-			<!-- Other Project #1 End -->
-
-			<!-- Other Project #2 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Game Jam - Trapped</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/trapped-in-game.png" alt="Trapped - Game Jam Entry">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">The Train2Game, Luton Game Jam - Our Game Entry was the game Trapped.</p>
-						<a href="http://gunnerjnr.uk/WebGL/Trapped/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
-					</div>
-				</div>
-			</div>
-			<!-- Other Project #2 End -->
-
-			<!-- Other Project #3 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Invasion</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/invasion-in-game.png" alt="Invasion - Space Invaders Clone">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">Invasion - A clone of the original 'Space Invaders' a retro 8 bit classic.</p>
-						<a href="http://gunnerjnr.uk/Invasion/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
-					</div>
-				</div>
-			</div>
-			<!-- Other Project #3 End -->
-
-			<!-- Other Project #4 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">FizzBuzz Challenge</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/fizzbuzz.png" alt="FizzBuzz Challenge">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A simple Javascript program displaying the FizzBuzz Solution.</p>
-						<a href="https://github.com/GunnerJnr/FizzBuzz" target="_blank" class="btn btn-warning fa fa-github-alt">
-							Github</a>
-					</div>
-				</div>
-			</div>
-			<!-- Other Project #4 End -->
-
-			<!-- Other Project #5 Begin -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card">
-					<div class="card-header">
-						<h6 class="card-title">Doomsday Counter - JS</h6>
-					</div>
-					<div class="card-body">
-						<img id="img-previews" class="card-img-bottom grow" src="img/projects/judgementday.png" alt="Doomsday Counter">
-					</div>
-					<div class="card-footer">
-						<p class="card-text">A simple doomsday counter built in Javascript using flipclock.js.</p>
-						<a href="https://gunnerjnr.uk/doomsday" target="_blank" class="btn btn-info fa fa-desktop"> Visit Counter</a>
-						<a href="https://github.com/GunnerJnr/doomsday-counter" target="_blank" class="btn btn-warning fa fa-github-alt">
-							Github</a>
-					</div>
-				</div>
-			</div>
-			<!-- Other Project #5 End -->
 		</div>
-		<!-- Row Container End -->
+	</div>
+	<!-- About Me End -->
 
-		<!-- Row Container Begin -->
-		<div id="contact" class="row">
-			<div class="col-md-12">
-				<hr>
-				<h1>CONTACT ME</h1>
+	<!-- Portfolio Section Begin -->
+	<div class="portfolio" id="portfolio">
+		<h1 class="text-center">Portfolio</h1>
+		<div class="container">
+			<div class="row">
+				<!-- Portfolio Project #1 Begin -->
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Full Stack Diploma Certificate</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/diploma-certificate/diploma-preview.png" alt="Stream One Final Project">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
+							<a href="https://gunnerjnr.uk/full-stack-diploma.pdf" target="_blank " class="btn btn-info fa fa-certificate"> View Diploma</a>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Project #1 End -->
+
+				<!-- Portfolio Project #2 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Band Site</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/band-site-preview.png" alt="Stream One Final Project">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A demonstration of the front end technologies learned displaying a band website.</p>
+							<a href="http://band-site.gunnerjnr.uk/home" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
+							<a href="https://github.com/GunnerJnr/stream-one-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
+								Github</a>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Project #2 End -->
+
+				<!-- Portfolio Project #3 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Data Dashboard</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/avengers-data-dashboard-preview.png" alt="Stream Two Final Project">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A demonstration of the back end technologies learned displaying csv data into a dashboard.</p>
+							<a href="https://boiling-everglades-31193.herokuapp.com/" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
+							<a href="https://github.com/GunnerJnr/stream-two-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
+								Github</a>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Project #3 End -->
+
+				<!-- Portfolio Project #4 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Gamers Hub Site</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/gamershub-preview.png" alt="Stream Three Final Project">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A demonstration of the full stack technologies learned in a community site called gamershub.</p>
+							<a href="https://gamershub.herokuapp.com" target="_blank" class="btn btn-info fa fa-desktop"> Visit Site</a>
+							<a href="https://github.com/GunnerJnr/stream-three-final-project" target="_blank" class="btn btn-warning fa fa-github-alt">
+								Github</a>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Project #4 End -->
+
 				<hr>
 
-				<a href="mailto:gunnerjnr@live.co.uk" id="fa-social" class="fa fa-2x fa-envelope-o" aria-hidden="true" target="_blank"></a>
+				<!-- Other Project #1 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Bop The Bad Elf</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/bop-the-elf-preview.png" alt="Bop The Bad Elf - Google Play">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A whack a mole style inspired christmas game that I made for Android.</p>
+							<a href="https://play.google.com/store/apps/details?id=com.GUNNERStudios.BopTheBadElf&hl=en_GB" target="_blank" class="btn btn-success fa fa-gamepad">
+								Get on Google Play</a>
+							<a href="https://gunnerjnr.uk/Bop-The-Bad-Elf/HTML5-Build/Bop-The-Bad-Elf.html" target="_blank" class="btn btn-danger fa fa-gamepad">
+								Play Game</a>
+						</div>
+					</div>
+				</div>
+				<!-- Other Project #1 End -->
+
+				<!-- Other Project #2 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Game Jam - Trapped</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/trapped-in-game.png" alt="Trapped - Game Jam Entry">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">The Train2Game, Luton Game Jam - Our Game Entry was the game Trapped.</p>
+							<a href="http://gunnerjnr.uk/WebGL/Trapped/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
+						</div>
+					</div>
+				</div>
+				<!-- Other Project #2 End -->
+
+				<!-- Other Project #3 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Invasion</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/invasion-in-game.png" alt="Invasion - Space Invaders Clone">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">Invasion - A clone of the original 'Space Invaders' a retro 8 bit classic.</p>
+							<a href="http://gunnerjnr.uk/Invasion/" target="_blank" class="btn btn-danger fa fa-gamepad"> Play Game</a>
+						</div>
+					</div>
+				</div>
+				<!-- Other Project #3 End -->
+
+				<!-- Other Project #4 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">FizzBuzz Challenge</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/fizzbuzz.png" alt="FizzBuzz Challenge">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A simple Javascript program displaying the FizzBuzz Solution.</p>
+							<a href="https://github.com/GunnerJnr/FizzBuzz" target="_blank" class="btn btn-warning fa fa-github-alt">
+								Github</a>
+						</div>
+					</div>
+				</div>
+				<!-- Other Project #4 End -->
+
+				<!-- Other Project #5 Begin -->
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h6 class="card-title">Doomsday Counter - JS</h6>
+						</div>
+						<div class="card-body">
+							<img id="img-previews" class="card-img-bottom grow" src="img/projects/judgementday.png" alt="Doomsday Counter">
+						</div>
+						<div class="card-footer">
+							<p class="card-text">A simple doomsday counter built in Javascript using flipclock.js.</p>
+							<a href="https://gunnerjnr.uk/doomsday" target="_blank" class="btn btn-info fa fa-desktop"> Visit Counter</a>
+							<a href="https://github.com/GunnerJnr/doomsday-counter" target="_blank" class="btn btn-warning fa fa-github-alt">
+								Github</a>
+						</div>
+					</div>
+				</div>
+				<!-- Other Project #5 End -->
+			</div>
+			<!-- Row End -->
+		</div>
+		<!-- Container End -->
+	</div>
+	<!-- Portfolio Section End -->
+
+	<!-- Posts Section Begin -->
+	<div class="blog" id="blog">
+		<div class="container">
+			<h1 class="text-center">Blog Posts</h1>
+			<div class="row">
+
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card">
+						<div class="card-img">
+							<img src="img/projects/judgementday.png" class="img-fluid grow">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Coming Soon</h4>
+							<p class="card-text">
+								This post is currently being created, check back soon for updates! Thanks for your patience.
+							</p>
+						</div>
+						<div class="card-footer">
+							<a href="#blog" class="card-link">Read more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card">
+						<div class="card-img">
+							<img src="img/projects/judgementday.png" class="img-fluid grow">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Coming Soon</h4>
+							<p class="card-text">
+								This post is currently being created, check back soon for updates! Thanks for your patience.
+							</p>
+						</div>
+						<div class="card-footer">
+							<a href="#blog" class="card-link">Read more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card">
+						<div class="card-img">
+							<img src="img/projects/judgementday.png" class="img-fluid grow">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Coming Soon</h4>
+							<p class="card-text">
+								This post is currently being created, check back soon for updates! Thanks for your patience.
+							</p>
+						</div>
+						<div class="card-footer">
+							<a href="#blog" class="card-link">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Post Section End-->
+
+	<!-- Contact Form Begin -->
+	<div class="contact-form" id="contact">
+		<!-- Container Begin -->
+		<div class="container">
+
+			<h1 class="text-center">Get In touch</h1>
+
+			<!-- Social Icons Container Begin -->
+			<div class="social-icons">
 
 				<a href="https://github.com/GunnerJnr/" id="fa-social" class="fa fa-2x fa-github-alt" aria-hidden="true" target="_blank"></a>
 
 				<a href="https://www.linkedin.com/in/david-gunner-jnr-7b11a5a4/" id="fa-social" class="fa fa-2x fa-linkedin-square" aria-hidden="true"
-				 target="_blank"></a>
+				target="_blank"></a>
 
 				<a href="skype:daveyg25?chat" id="fa-social" class="fa fa-2x fa-skype" target="_blank"></a>
 
@@ -320,15 +375,12 @@
 
 				<a href="https://www.snapchat.com/add/g33k_c0d3r" id="fa-social" class="fa fa-2x fa-snapchat-ghost" target="_blank"></a>
 				<!--<a href="#" id="fa-social" class="fa fa-2x fa-rss" target="_blank"></a>-->
-
 			</div>
+			<!-- Social Icons Container End -->
 		</div>
-		<!-- Row Container End -->
-
+		<!-- Container End -->
 	</div>
-	<!-- Container End -->
-
-	<br>
+	<!-- Contact Form End -->
 
 	<!-- Footer Begin -->
 	<footer class="footer bg-dark fixed">
@@ -346,7 +398,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/2030cc48aa.js"></script>
-	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<!-- Include Javascript Files End -->
 </body>
 
