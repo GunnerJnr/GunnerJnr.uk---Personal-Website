@@ -69,7 +69,7 @@ a {
 	min-width: 100%;
 	left: 0;
 	top: 0;
-	background: rgba(255, 255, 255, 0.89);
+	background: rgba(255, 255, 255, 0.79);
 }
 
 /************************* Header Description Styling *************************/
@@ -193,6 +193,31 @@ a {
 	min-height: 100%;
 }
 
+/************************* Contact Me Styling *************************/
+.contact-form {
+	margin: 4em auto;
+	position: relative;
+}
+
+.contact-form h1 {
+	color: #f97300;
+}
+
+.contact-form {
+	max-width: 1200px;
+}
+
+.contact-form .btn-secondary {
+	background: #f97300;
+	color: #fff;
+	border: 0;
+}
+
+.contact-form .form-control::placeholder {
+	color: #888;
+	font-size: 16px;
+}
+
 /************************* Social Icons Styling *************************/
 #fa-social {
 	padding: 15px;
@@ -313,7 +338,6 @@ a {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
 	.description {
 		position: absolute;
 		top: 20%;
