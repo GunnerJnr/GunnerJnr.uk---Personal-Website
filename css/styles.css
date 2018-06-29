@@ -5,12 +5,12 @@
  */
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-
 body {
 	padding: 0;
 	margin: 0;
 	background: #f1efef;
 }
+
 html,
 h1,
 h2,
@@ -27,6 +27,7 @@ a {
 .grow {
 	transition: all 0.2s ease-in-out;
 }
+
 .grow:hover {
 	transform: scale(1.1);
 }
@@ -41,6 +42,7 @@ a {
 .navbar-brand {
 	cursor: pointer;
 }
+
 .nav-link {
 	margin-right: 1em !important;
 }
@@ -54,6 +56,7 @@ a {
 }
 
 /************************* Header Styling *************************/
+
 .header {
 	background-image: url("../img/background/background-img.jpeg");
 	background-attachment: fixed;
@@ -91,6 +94,12 @@ a {
 	font-size: 20px;
 	width: 70%;
 	line-height: 1.5;
+}
+
+.description button {
+	border: 1px solid #F97300;
+	background: #F97300;
+	color: #fff;
 }
 
 /************************* About Section Styling *************************/
@@ -195,6 +204,7 @@ a {
 }
 
 /************************* Contact Me Styling *************************/
+
 .contact-form {
 	margin: 4em auto;
 	position: relative;
@@ -220,6 +230,7 @@ a {
 }
 
 /************************* Social Icons Styling *************************/
+
 #fa-social {
 	padding: 15px;
 	font-size: 20px;
@@ -302,6 +313,7 @@ a {
 }
 
 /************************* Sticky footer styles *************************/
+
 .footer {
 	display: block;
 	position: relative;
@@ -309,13 +321,15 @@ a {
 	width: 100%;
 	/* Set the fixed height of the footer here */
 	height: 60px;
-	line-height: 60px; /* Vertically center the text there */
+	line-height: 60px;
+	/* Vertically center the text there */
 	background-color: #f5f5f5;
 }
 
 /************************* Media Queries *************************/
 
 /* Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
 	.description {
 		position: absolute;
@@ -324,20 +338,19 @@ a {
 		margin: auto;
 		padding: 1em;
 	}
-
 	.description p {
 		color: #666;
 		font-size: 16px;
 		width: 50%;
 		line-height: 1.2;
 	}
-
 	.footer {
 		font-size: 0.75em;
 	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.description {
 		position: absolute;
@@ -346,27 +359,25 @@ a {
 		margin: auto;
 		padding: 1.5em;
 	}
-
 	.description p {
 		color: #666;
 		font-size: 18px;
 		width: 60%;
 		line-height: 1.4;
 	}
-
 	.footer {
 		font-size: 1em;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+
+@media (min-width: 1200px) {}

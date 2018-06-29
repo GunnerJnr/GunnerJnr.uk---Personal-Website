@@ -55,7 +55,7 @@ header( "Location: $feedback_page" );
 
 // If the form fields are empty, redirect to the error page.
 elseif (empty($full_name) || empty($email_address)) {
-header( "Location: $error_page" );
+	header( "Location: $error_page" );
 }
 
 /*
@@ -63,7 +63,7 @@ If email injection is detected, redirect to the error page.
 If you add a form field, you should add it here.
 */
 elseif ( isInjected($email_address) || isInjected($full_name)  || isInjected($comments) ) {
-header( "Location: $error_page" );
+	header( "Location: $error_page" );
 }
 
 // If we passed all previous tests, send the email then redirect to the thank you page.
