@@ -18,12 +18,14 @@ This next bit loads the form field data into variables.
 If you add a form field, you will need to add it here.
 */
 $email_address = $_REQUEST['email_address'] ;
-$comments = $_REQUEST['comments'] ;
 $full_name = $_REQUEST['full_name'] ;
-$msg =
+$comments = $_REQUEST['comments'] ;
+
+$msg = utf8_encode(
 "Full Name: " . $full_name . "\r\n" .
 "Email: " . $email_address . "\r\n" .
 "Comments: " . $comments ;
+);
 
 /*
 The following function checks for email injection.
