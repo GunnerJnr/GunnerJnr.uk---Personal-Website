@@ -21,11 +21,10 @@ $email_address = $_REQUEST['email_address'] ;
 $full_name = $_REQUEST['full_name'] ;
 $comments = $_REQUEST['comments'] ;
 
-$msg = utf8_encode(
+$msg =
 "Full Name: " . $full_name . "\r\n" .
 "Email: " . $email_address . "\r\n" .
 "Comments: " . $comments ;
-);
 
 /*
 The following function checks for email injection.
