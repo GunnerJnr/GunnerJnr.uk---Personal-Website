@@ -5,10 +5,24 @@
  */
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
 body {
 	padding: 0;
 	margin: 0;
 	background: #f1efef;
+}
+
+::-webkit-scrollbar {
+	width: 5px; /* remove scrollbar space too just visible */
+	background: transparent; /* optional: just make scrollbar invisible */
+	}
+	/* optional: show position indicator in orange */
+	::-webkit-scrollbar-thumb {
+	background: #f97300;
 }
 
 html,
@@ -33,6 +47,10 @@ a {
 }
 
 /************************* Navbar Styling *************************/
+.navbar {
+	overflow-x: hidden;
+	width: 100%;
+}
 
 .navbar .img {
 	margin: 0 auto;
@@ -162,35 +180,6 @@ a {
 	margin: 0 auto;
 }
 
-/************************* Blog Section Styling *************************/
-
-.blog {
-	margin: 4em 0;
-	position: relative;
-}
-
-.blog h1 {
-	color: #f97300;
-	margin: 2em;
-}
-
-.blog .card {
-	box-shadow: 0 0 20px #ccc;
-}
-
-.blog .card img {
-	width: 100%;
-	height: 12em;
-}
-
-.blog .card-title {
-	color: #f97300;
-}
-
-.blog .card-body {
-	padding: 1em;
-}
-
 /************************* Cards Styling *************************/
 
 .card {
@@ -318,6 +307,7 @@ a {
 	display: block;
 	position: relative;
 	bottom: 0;
+	overflow-x: hidden;
 	width: 100%;
 	/* Set the fixed height of the footer here */
 	height: 60px;
